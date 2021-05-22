@@ -21,13 +21,10 @@ layout: default
 {% else %}
 {% for post in site.posts %}
   <div class="list-item">
+    <img src="{{ post.image }}" alt="{{ post.title }}">
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <div class="list-post-small">
-      <time class="list-post-small-date">{{ post.date | date_to_string }}</time>
-      <p class="list-post-small-desc">- {{ post.description }}</p>
-    </div>
   </div>
 {% endfor %}
 {% endif %}

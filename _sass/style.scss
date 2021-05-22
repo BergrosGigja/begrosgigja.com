@@ -404,9 +404,24 @@ tbody tr:nth-child(odd) th {
 }
 
 .list {
+
+  &-item{
+    position: relative;
+  }
+  img {
+    width: 100%;
+    opacity: 0.4;
+  }
+
   &-post-title {
-   margin-bottom: .25rem;
-   line-height: 45px;
+    margin-bottom: .25rem;
+    line-height: 45px;
+
+    position: absolute;
+    z-index: 999;
+    right: 5%;
+    top: 50%;
+    width: 100%;
 
     a {
       padding: .3rem;
@@ -419,6 +434,7 @@ tbody tr:nth-child(odd) th {
       &:hover {
         color: $accentcolor;
         background-color: #333;
+        text-shadow: 0px 15px 0 $accentcolor, 0px -15px 0 #919191;
       }
 
       &:focus {
@@ -453,6 +469,31 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
+}
+
+.art {
+    .container {
+        position: relative;
+        padding: 5px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .container .name {
+        background-color: black;
+        opacity: 0.9;
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 60%;
+        right: 0;
+        top: 90%;
+        text-align: center;
+        width: 45%;
+        color: $accentcolor;
+    }
 }
 
 .footer {

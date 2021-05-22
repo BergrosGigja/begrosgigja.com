@@ -16,8 +16,11 @@ markdown:           kramdown
 
 # Navbar
 nav:
-  - name:           "Blog"
-    link:           "blog"
+  - name:           "Projects"
+    link:           "projects"
+    download:       false
+  - name:           "Art"
+    link:           "art"
     download:       false
   - name:           "CV"
     link:           "resume.pdf"
@@ -52,3 +55,19 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+art:
+  - name:           "Woman in water, acrylic"
+    image:           "../assets/art/IMG_swimmer.jpg"
+  - name:           "Beans, acrylic"
+    image:           "../assets/art/IMG_beans.jpg"
+  - name:           "After party, acrylic"
+    image:           "../assets/art/IMG_party.jpg"
+  - name:           "Chonkers, acrylic"
+    image:           "../assets/art/IMG_cat.jpg"
+  - name:           "Woman in gold, acrylic"
+    image:           "../assets/art/IMG_woman.jpg"
+  - name:           "Baby, acrylic"
+    image:           "../assets/art/IMG_baby.jpg"
+  - name:           "Red Monkey, water color"
+    image:           "../assets/art/IMG_monkey.jpg"

@@ -1,6 +1,7 @@
 ---
 title:        "Sandcastle Theme"
 description:  "Simple blog/portfolio Jekyll Theme"
+image: 	      "../assets/projects/sandcastle.png"
 ---
 
 I recently discovered this phenomenon: Jekyll static site generator.

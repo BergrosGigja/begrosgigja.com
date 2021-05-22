@@ -1,6 +1,7 @@
 ---
 title:        "Starborne Politics Panel"
 description:  "Development on the new Starborne Politics panel"
+image: 	      "../assets/projects/politicspanel.png"
 ---
 
 The Starborne Dissidence update is finally here!

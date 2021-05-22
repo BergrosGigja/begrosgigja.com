@@ -1,6 +1,7 @@
 ---
 title:        "PyGame Sudoku Solver"
 description:  "Sudoku solver made with pyGame"
+image: 	      "../assets/projects/sudoku.png"
 ---
 
 While thinking of a project that could freshen up my python knowledge and also be game development related I stumbled on to the [PyGame](https://www.pygame.org/news) website.
