@@ -1,7 +1,7 @@
 ---
 title:        "Nightmare"
 description:  "Video games made with Unity"
-image: 	      "../assets/projects/nightmare.png"
+image: 	      "../assets/projects/nightmare.PNG"
 ---
 ![](https://i.imgur.com/HhJDnjr.gif)
 
